@@ -4,7 +4,13 @@ import DescriptionSharpIcon from "@mui/icons-material/DescriptionSharp";
 import myblogsinfo from "./MyBlogInfo";
 
 function addMyBlogsBox(mybloginfo) {
-  return <BlogTitle key={mybloginfo.id} titleName={mybloginfo.title} date={mybloginfo.date} />;
+  return (
+    <BlogTitle
+      key={mybloginfo.id}
+      titleName={mybloginfo.title}
+      date={mybloginfo.date}
+    />
+  );
 }
 
 const iconStyles = {

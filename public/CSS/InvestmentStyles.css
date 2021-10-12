@@ -1,120 +1,120 @@
-.title__logo{
-    color: #FFFFFF;
+.title__logo {
+  color: #ffffff;
 }
-.title__menu{
-    color: #FFFFFF;
+.title__menu {
+  color: #ffffff;
 }
 
-.Investment__header{
-    height: 75vh;
-    background-image: url("../Images/BitcoinInvestment.jpg");
-    background-size: cover;
-    background-position: center;
+.Investment__header {
+  height: 75vh;
+  background-image: url("../Images/BitcoinInvestment.jpg");
+  background-size: cover;
+  background-position: center;
 }
-.sub__container{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    position:relative;
-    top:10vh;
+.sub__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  top: 10vh;
 }
-.subpagebox__1{
-    width:30%;
-    border-radius:20px;
-    height: 35vh;
+.subpagebox__1 {
+  width: 30%;
+  border-radius: 20px;
+  height: 35vh;
 }
-.subpagebox__2{
-    width:30%;
-    border-radius:20px;
-    height: 35vh;
+.subpagebox__2 {
+  width: 30%;
+  border-radius: 20px;
+  height: 35vh;
 }
-.subpagebox__3{
-    width:30%;
-    border-radius:20px;
-    height: 35vh;
+.subpagebox__3 {
+  width: 30%;
+  border-radius: 20px;
+  height: 35vh;
 }
-.subpagetitle__1{
-    color:#FFFFFF;
-    font-family: Sora;
-    font-size:2.5em;
-    padding:0px;
-    position: relative;
-    top: 5px;
-    margin-left: 45px;
+.subpagetitle__1 {
+  color: #ffffff;
+  font-family: Sora;
+  font-size: 2.5em;
+  padding: 0px;
+  position: relative;
+  top: 5px;
+  margin-left: 45px;
 }
-.subpagetitle__2{
-    color:#FFFFFF;
-    font-family: Sora;
-    font-size:2.5em;
-    padding:0px;
-    position: relative;
-    top: 5px;
-    margin-left: 45px;
+.subpagetitle__2 {
+  color: #ffffff;
+  font-family: Sora;
+  font-size: 2.5em;
+  padding: 0px;
+  position: relative;
+  top: 5px;
+  margin-left: 45px;
 }
-.subpagetitle__3{
-    color:#FFFFFF;
-    font-family: Sora;
-    font-size:2.5em;
-    padding:0px;
-    position: relative;
-    top: 5px;
-    margin-left: 45px;
+.subpagetitle__3 {
+  color: #ffffff;
+  font-family: Sora;
+  font-size: 2.5em;
+  padding: 0px;
+  position: relative;
+  top: 5px;
+  margin-left: 45px;
 }
-.subpagetext__1{
-    color:#FFFFFF;
-    font-family: Sora;
-    padding: 7px;
-    position: relative;
-    top: 20px;
-    text-align: left;
+.subpagetext__1 {
+  color: #ffffff;
+  font-family: Sora;
+  padding: 7px;
+  position: relative;
+  top: 20px;
+  text-align: left;
 }
-.subpagetext__2{
-    color:#FFFFFF;
-    font-family: Sora;
-    padding: 7px;
-    position: relative;
-    top: 20px;
-    text-align: left;
+.subpagetext__2 {
+  color: #ffffff;
+  font-family: Sora;
+  padding: 7px;
+  position: relative;
+  top: 20px;
+  text-align: left;
 }
-.subpagetext__3{
-    color:#FFFFFF;
-    font-family: Sora;
-    padding: 7px;
-    position: relative;
-    top: 20px;
-    text-align: left;
+.subpagetext__3 {
+  color: #ffffff;
+  font-family: Sora;
+  padding: 7px;
+  position: relative;
+  top: 20px;
+  text-align: left;
 }
-.Investment__title{
-    color:#FFFFFF;
-    font-size: 6em;
-    padding-left: 8rem;
-    padding-top:30px;
+.Investment__title {
+  color: #ffffff;
+  font-size: 6em;
+  padding-left: 8rem;
+  padding-top: 30px;
 }
-.Investment__desc{
-    color: #FFFFFF;
-    padding-left: 8rem;
-    padding-top: 20px;
-    font-size: 1.5em;
-    width:50%;
+.Investment__desc {
+  color: #ffffff;
+  padding-left: 8rem;
+  padding-top: 20px;
+  font-size: 1.5em;
+  width: 50%;
 }
-.Icons{
-    color:white;
-    transform: scale(5.0);
-    padding-left: 7px;
-    padding-top: 7px;
+.Icons {
+  color: white;
+  transform: scale(5);
+  padding-left: 7px;
+  padding-top: 7px;
 }
-.Subpage__button{
-    background-color: transparent;
-    border: transparent;
-    width: 100%;
-    height: 100%;
-    border-radius:20px;
-    padding: 15px;
-    display: flex;
-    align-items: left;
-    flex-direction: column;
+.Subpage__button {
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
 }
-.Subpage__head{
-    display: flex;
-    flex-direction: row;
+.Subpage__head {
+  display: flex;
+  flex-direction: row;
 }

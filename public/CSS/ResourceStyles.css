@@ -43,15 +43,15 @@
   font-size: 36px;
   color: #5b10a8;
 }
-.Popup__header{
+.Popup__header {
   display: flex;
   flex-direction: row;
 }
-.Popup__box{
+.Popup__box {
   width: 100%;
   height: 100%;
 }
-.Popup__content{
+.Popup__content {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -59,13 +59,12 @@
   justify-content: space-between;
   padding: 15px;
 }
-.Resrc__type--title{
+.Resrc__type--title {
   margin-left: 25px;
   font-size: 30px;
   color: #5b10a8;
 }
-.Resrc__icon{
+.Resrc__icon {
   margin-top: 10px;
-  transform: scale(3.0);
+  transform: scale(3);
 }
-

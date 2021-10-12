@@ -1,21 +1,19 @@
-.Mining__header{
-    height: 75vh;
-    background-image: url("../Images/BitcoinMining.jpg");
-    background-size: cover;
-    background-position: center;
+.Mining__header {
+  height: 75vh;
+  background-image: url("../Images/BitcoinMining.jpg");
+  background-size: cover;
+  background-position: center;
 }
-.Mining__title{
-    color:#FFFFFF;
-    font-size: 6em;
-    padding-left: 8rem;
-    padding-top:30px;
+.Mining__title {
+  color: #ffffff;
+  font-size: 6em;
+  padding-left: 8rem;
+  padding-top: 30px;
 }
-.Mining__desc{
-    color: #FFFFFF;
-    padding-left: 8rem;
-    padding-top: 20px;
-    font-size: 1.5em;
-    width:50%;
+.Mining__desc {
+  color: #ffffff;
+  padding-left: 8rem;
+  padding-top: 20px;
+  font-size: 1.5em;
+  width: 50%;
 }
-
-

@@ -1,90 +1,95 @@
-.Blog-row{
-    display: flex;
-    flex-direction: row; 
+.Blog-row {
+  display: flex;
+  flex-direction: row;
 }
-.Blog__img{
-    width: 45vw;
-    height: 40vh;
+.Blog__img {
+  width: 45vw;
+  height: 40vh;
 }
-.Blog__desc{
-    width:90%;
-    font-family: Sora;
-    color: #5B10A8;
+.Blog__desc {
+  width: 90%;
+  font-family: Sora;
+  color: #5b10a8;
 }
-.Author__section{
-    display: flex;
-    flex-direction: row;
+.Author__section {
+  display: flex;
+  flex-direction: row;
 }
-.Author__details{
-    margin-left: 10px;
+.Author__details {
+  margin-left: 10px;
 }
-.Author__name{
-    font-family: Sora;
-    color: #5B10A8;
+.Author__name {
+  font-family: Sora;
+  color: #5b10a8;
 }
-.Blog__date{
-    font-family: Sora;
-    color: #5B10A8;
+.Blog__date {
+  font-family: Sora;
+  color: #5b10a8;
 }
-.Blog__title{
-    font-family: Sora;
-    color: #5B10A8;
-    margin-top: 1.5vh;
-    font-size: 2em;
+.Blog__title {
+  font-family: Sora;
+  color: #5b10a8;
+  margin-top: 1.5vh;
+  font-size: 2em;
 }
-.Account__icon{
-    color: #5B10A8;
+.Account__icon {
+  color: #5b10a8;
 }
-.Bookmark__icon{
-    color: #5B10A8;
+.Bookmark__icon {
+  color: #5b10a8;
 }
-.Comment__icon{
-    color: #5B10A8;
+.Comment__icon {
+  color: #5b10a8;
 }
-.Search__area{
-    background: linear-gradient(90.44deg, #5B10A8 0%, rgba(172, 118, 227, 0.171875) 94.07%, rgba(220, 196, 245, 0) 113.6%);
-    height: 10vh;
-    position: relative;
+.Search__area {
+  background: linear-gradient(
+    90.44deg,
+    #5b10a8 0%,
+    rgba(172, 118, 227, 0.171875) 94.07%,
+    rgba(220, 196, 245, 0) 113.6%
+  );
+  height: 10vh;
+  position: relative;
 }
-.Blog__box{
-    margin-top: 3vh;
-    margin-left: 2vw;
+.Blog__box {
+  margin-top: 3vh;
+  margin-left: 2vw;
 }
-.Author__section{
-    margin-bottom: 2vh;
+.Author__section {
+  margin-bottom: 2vh;
 }
-.Account__icon{
-    transform: scale(2.0);
-    margin-left: 0.5vw;
+.Account__icon {
+  transform: scale(2);
+  margin-left: 0.5vw;
 }
-.Author__details{
-    transform: scale(1.75);
-    margin-left: 3vw;
+.Author__details {
+  transform: scale(1.75);
+  margin-left: 3vw;
 }
-.Blog__desc{
-    margin-top: 1vh;
-    font-size: 1.3em;
-    font-weight: 600;
+.Blog__desc {
+  margin-top: 1vh;
+  font-size: 1.3em;
+  font-weight: 600;
 }
-.Blogopt__section{
-    margin-top: 3vh;
+.Blogopt__section {
+  margin-top: 3vh;
 }
-.Bookmark__icon{
-    transform: scale(2.0);
-    margin-right: 40px;
-    margin-left: 5px;
+.Bookmark__icon {
+  transform: scale(2);
+  margin-right: 40px;
+  margin-left: 5px;
 }
-.Comment__icon{
-    transform: scale(2.0);
+.Comment__icon {
+  transform: scale(2);
 }
-.Search__box{
-    height: 40px;
-    width: 500px;
-    background-color: white;
-    position: absolute;
-    top: 2vh;
-    right: 30vw;
+.Search__box {
+  height: 40px;
+  width: 500px;
+  background-color: white;
+  position: absolute;
+  top: 2vh;
+  right: 30vw;
 }
-.Blog__date{
-    font-weight: 600;
+.Blog__date {
+  font-weight: 600;
 }

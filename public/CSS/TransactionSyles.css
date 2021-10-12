@@ -1,21 +1,19 @@
-.Transactions__header{
-    height: 75vh;
-    background-image: url("../Images/BitcoinTransactions.png");
-    background-size: cover;
-    background-position: center;
+.Transactions__header {
+  height: 75vh;
+  background-image: url("../Images/BitcoinTransactions.png");
+  background-size: cover;
+  background-position: center;
 }
-.Transactions__title{
-    color:#FFFFFF;
-    font-size: 6em;
-    padding-left: 8rem;
-    padding-top:30px;
+.Transactions__title {
+  color: #ffffff;
+  font-size: 6em;
+  padding-left: 8rem;
+  padding-top: 30px;
 }
-.Transactions__desc{
-    color: #FFFFFF;
-    padding-left: 8rem;
-    padding-top: 20px;
-    font-size: 1.5em;
-    width:50%;
+.Transactions__desc {
+  color: #ffffff;
+  padding-left: 8rem;
+  padding-top: 20px;
+  font-size: 1.5em;
+  width: 50%;
 }
-
-

@@ -1,20 +1,20 @@
-.menu__items--div{
+.menu__items--div {
   height: 70px;
 }
 
-.menu__items--container{
+.menu__items--container {
   display: inline-flex;
   justify-content: center;
   flex-direction: row;
   position: relative;
-  left:45%;
-  bottom:15px; 
+  left: 45%;
+  bottom: 15px;
 }
 
 /* About Me Section */
-.aboutme__div{
+.aboutme__div {
   position: relative;
-  background-color: #DCC4F5;
+  background-color: #dcc4f5;
   padding: 2%;
   /* margin: 2.5% 1.5% 1.5% 1.5%; */
   margin: 2.5% 2.5% 1.5% 2.5%;
@@ -22,118 +22,118 @@
   height: 400px;
 }
 
-.aboutme__text{
-  color: #5B10A8;
+.aboutme__text {
+  color: #5b10a8;
   font-size: 40px;
   position: relative;
   bottom: 10px;
   left: 5px;
 }
 
-.profile__image{
+.profile__image {
   display: inline-block;
   height: 250px;
-  width:250px;
-  border-radius:100%;
+  width: 250px;
+  border-radius: 100%;
   position: absolute;
   right: 6%;
   top: 10%;
 }
 
-.aboutme__text--para{
+.aboutme__text--para {
   position: relative;
-  top:20px;
-  left:10px;
+  top: 20px;
+  left: 10px;
   width: 900px;
   font-size: 22px;
 }
 
-.name__first{
+.name__first {
   font-size: 25px;
   position: absolute;
-  right:10%;
-  top:75%;
-  color:#5B10A8;
+  right: 10%;
+  top: 75%;
+  color: #5b10a8;
 }
 
-.name__last{
+.name__last {
   font-size: 25px;
   position: absolute;
-  right:10%;
-  top:83%;
-  color:#5B10A8;
+  right: 10%;
+  top: 83%;
+  color: #5b10a8;
 }
 
-.aboutMe__icons{
+.aboutMe__icons {
   position: absolute;
   bottom: 10%;
 }
 
 /* My Blogs Section */
-.myblogs__div{
+.myblogs__div {
   position: relative;
-  background-color: #DCC4F5;
+  background-color: #dcc4f5;
   padding: 2%;
   margin: 2.5% 2.5% 1.5% 2.5%;
   border-radius: 15px;
 }
 
-.myblogs__text{
-  color: #5B10A8;
+.myblogs__text {
+  color: #5b10a8;
   font-size: 40px;
   position: relative;
   bottom: 10px;
   left: 5px;
 }
 
-.blogsTitle__div{
+.blogsTitle__div {
   position: relative;
   border-radius: 10px;
   background-color: #fff;
   margin: 1.5% 0 0 0;
   height: 70px;
 }
-.blogsTitle__titleName{
+.blogsTitle__titleName {
   margin: 1.5% 1.5% 1.5% 3%;
   position: absolute;
   font-size: 30px;
   font-weight: lighter;
-  color: #5B10A8;
+  color: #5b10a8;
 }
-.blogsTitle__date{
+.blogsTitle__date {
   margin: 1.5% 5% 1.5% 1.5%;
   position: absolute;
   font-size: 30px;
   font-weight: lighter;
-  color: #5B10A8;
+  color: #5b10a8;
   right: 0px;
 }
 
 /* Progress Bar Section */
-.progressBar__div{
+.progressBar__div {
   display: flex;
   justify-content: space-between;
   margin: 2% 5% 0 5%;
 }
 
-.progressBar__div--investments{
+.progressBar__div--investments {
   width: 300px;
   position: relative;
 }
 
-.progressBar__div--transactions{
+.progressBar__div--transactions {
   width: 300px;
   position: relative;
 }
 
-.progressBar__div--mining{
+.progressBar__div--mining {
   width: 300px;
   position: relative;
 }
 
-.progressBar__descText{
+.progressBar__descText {
   padding-top: 7%;
   font-size: 35px;
-  color: #5B10A8;
+  color: #5b10a8;
   text-align: center;
 }

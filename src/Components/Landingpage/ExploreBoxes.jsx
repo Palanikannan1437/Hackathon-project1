@@ -12,15 +12,19 @@ const iconStyles = {
     position: "absolute",
     top: "8%",
     left: "4%",
-  }
+  },
 };
 
 function icon(iconName) {
   if (iconName === "Blog") return <BookIcon style={iconStyles.otherIcons} />;
-  else if (iconName === "Compare") return <CompareIcon style={iconStyles.otherIcons} />;
-  else if (iconName === "Progress") return <TrendingUpIcon style={iconStyles.otherIcons} />;
-  else if (iconName === "Analysis") return <AnalyticsIcon style={iconStyles.otherIcons} />;
-  else if (iconName === "Learn") return <ImportContactsIcon style={iconStyles.otherIcons} />;
+  else if (iconName === "Compare")
+    return <CompareIcon style={iconStyles.otherIcons} />;
+  else if (iconName === "Progress")
+    return <TrendingUpIcon style={iconStyles.otherIcons} />;
+  else if (iconName === "Analysis")
+    return <AnalyticsIcon style={iconStyles.otherIcons} />;
+  else if (iconName === "Learn")
+    return <ImportContactsIcon style={iconStyles.otherIcons} />;
 }
 
 function ExploreBoxes(props) {

@@ -1,5 +1,5 @@
 import React from "react";
-import { CircularProgressbar,buildStyles } from "react-circular-progressbar";
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import BarChartIcon from "@mui/icons-material/BarChart";
 
@@ -7,7 +7,7 @@ const iconStyles = {
   descIcon: {
     fontSize: "50px",
     color: "#5B10A8",
-  }
+  },
 };
 
 const percentage = 40;
