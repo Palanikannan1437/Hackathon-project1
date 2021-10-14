@@ -1,4 +1,3 @@
-import { width } from "@mui/system";
 import React, { useState } from "react";
 import Modal from "react-modal";
 import Signup from "./Signup";
@@ -24,6 +23,7 @@ function MainSection() {
       <Modal isOpen={modalIsOpen} onRequestClose={() => setmodalIsOpen(false)}>
         <Signup />
       </Modal>
+      <Modal ></Modal>
     </div>
   );
 }

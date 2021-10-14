@@ -36,7 +36,7 @@ function LandingPage(props) {
           pathtitle="MiningPage"
         ></SubSection>
       </div>
-      <ExploreSection />
+      <ExploreSection className="explore__section--toScroll" />
     </div>
   );
 }

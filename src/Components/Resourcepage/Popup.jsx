@@ -10,17 +10,38 @@ function Popup(props) {
           <OndemandVideoIcon className="Resrc__icon" />
           <h3 className="Resrc__type--title">Videos</h3>
         </div>
-        <div className="Popup-links"></div>
+        <div className="Popup-links">
+          <ul>
+            <li>Link 1-SJDKFHDJHDKJFSDGSFSFSGDSSASDSSADSDSAS</li>
+            <li>Link 2-SJDKFHDJHDKJFSDGSFSFSGDSSASDSSADSDSAS</li>
+            <li>Link 3-SJDKFHDJHDKJFSDGSFSFSGDSSASDSSADSDSAS</li>
+            <li>Link 1-SJDKFHDJHDKJFSDGSFSFSGDSSASDSSADSDSAS</li>
+          </ul>
+        </div>
         <div className="Popup__header">
           <ArticleIcon className="Resrc__icon" />
           <h3 className="Resrc__type--title">Articles</h3>
         </div>
-        <div className="Popup-links"></div>
+        <div className="Popup-links">
+          <ul>
+            <li>Link 1-SJDKFHDJHDKJFSDGSFSFSGDSSASDSSADSDSAS</li>
+            <li>Link 2-SJDKFHDJHDKJFSDGSFSFSGDSSASDSSADSDSAS</li>
+            <li>Link 3-SJDKFHDJHDKJFSDGSFSFSGDSSASDSSADSDSAS</li>
+            <li>Link 1-SJDKFHDJHDKJFSDGSFSFSGDSSASDSSADSDSAS</li>
+          </ul>
+        </div>
         <div className="Popup__header">
           <SchoolIcon className="Resrc__icon" />
           <h3 className="Resrc__type--title">Courses</h3>
         </div>
-        <div className="Popup-links"></div>
+        <div className="Popup-links">
+          <ul>
+            <li>Link 1-SJDKFHDJHDKJFSDGSFSFSGDSSASDSSADSDSAS</li>
+            <li>Link 2-SJDKFHDJHDKJFSDGSFSFSGDSSASDSSADSDSAS</li>
+            <li>Link 3-SJDKFHDJHDKJFSDGSFSFSGDSSASDSSADSDSAS</li>
+            <li>Link 1-SJDKFHDJHDKJFSDGSFSFSGDSSASDSSADSDSAS</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

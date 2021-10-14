@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useRef} from "react";
 import Logo from "./Landingpage/Logo";
 import Item from "./Landingpage/Item";
 import { Link } from "react-router-dom";
@@ -46,6 +46,13 @@ function Profilenavbar(props) {
 }
 
 function Normalnavbar(props) {
+  const titleRef = useRef();
+  console.log(titleRef);
+  // document.querySelector(".exploreSection__div").setAttribute("ref",titleRef);
+  // function scrollTo(){
+  //   titleRef.current.scrollIntoView({ behavior: 'smooth' })
+  // }
+  
   return (
     <div style={{ background: props.bgcolor }}>
       <Logo color={props.itemcolor} />
@@ -73,7 +80,7 @@ function Normalnavbar(props) {
           </li>
         </Link>
         <Link to="">
-          <li className="item3">
+          <li  className="item3">
             <Item
               color={props.itemcolor}
               option="Explore"
@@ -88,7 +95,7 @@ function Normalnavbar(props) {
   );
 }
 
-function NavigationBar(props) {
+function NavigationBar(props) {   
   if (props.navtype === "profile") {
     return (
       <Profilenavbar

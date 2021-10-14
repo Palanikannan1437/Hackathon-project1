@@ -12,8 +12,6 @@ function Item(props) {
   const hoverTextColor = props.hovercolor;
   const backgroundColor1 = props.bgcolor;
   const hoverbackgroundColor = props.hoverbgcolor;
-  console.log(backgroundColor1);
-  console.log(hoverbackgroundColor);
   return (
     <p
       style={{

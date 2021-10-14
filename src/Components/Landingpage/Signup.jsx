@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import Modal from "react-modal";
+import Login from "./Login";
 
 function Signup(props) {
+  const [modalIsOpen, setmodalIsOpen] = useState(false);
   return (
     <div className="form-content">
       <form className="form">
@@ -42,8 +45,11 @@ function Signup(props) {
         </div>
         <button className="register-button">Sign Up</button>
         <div className="form-login">
-          Already have an account? Login <a href="/">here</a>
+          Already have an account? Login <a href="#" onClick={() => setmodalIsOpen(true)}>here</a>
         </div>
+        <Modal isOpen={modalIsOpen} onRequestClose={() => setmodalIsOpen(false)}>
+          <Login />
+        </Modal>
       </form>
     </div>
   );

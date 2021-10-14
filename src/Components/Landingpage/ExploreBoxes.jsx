@@ -28,7 +28,6 @@ function icon(iconName) {
 }
 
 function ExploreBoxes(props) {
-  console.log(props.desc);
   return (
     <div style={{ backgroundColor: props.color }} className="exploreBox__div">
       {icon(props.logo)}
