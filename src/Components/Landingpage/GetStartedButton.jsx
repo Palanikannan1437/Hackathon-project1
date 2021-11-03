@@ -7,7 +7,7 @@ import styles from "./styles.modules.css";
 function GetStartedButton(props) {
   const [open, toggle] = useState(false);
   const [ref, { width }] = useMeasure();
-  const props1 = useSpring({width: open ? width : 0 });
+  const props1 = useSpring({config:{friction:35},to:{width: open ? width : 0 }});
 
   return (
     <div className="divButton">

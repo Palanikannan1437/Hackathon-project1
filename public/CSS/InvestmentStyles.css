@@ -22,17 +22,32 @@
   width: 30%;
   border-radius: 20px;
   height: 35vh;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 1);
+  transition: box-shadow 0.5s
 }
+.subpagebox__1:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 1);
+} 
 .subpagebox__2 {
   width: 30%;
   border-radius: 20px;
   height: 35vh;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 1);
+  transition: box-shadow 0.5s
 }
+.subpagebox__2:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 1);
+} 
 .subpagebox__3 {
   width: 30%;
   border-radius: 20px;
   height: 35vh;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 1);
+  transition: box-shadow 0.5s
 }
+.subpagebox__3:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 1);
+} 
 .subpagetitle__1 {
   color: #ffffff;
   font-family: Sora;
