@@ -6,9 +6,9 @@ import Signup from "./Signup";
 function MainSection() {
   const [modalIsOpen, setmodalIsOpen] = useState(false);
 
-  const openModal = ()=>{
+  const openModal = () => {
     setmodalIsOpen(true);
-  }
+  };
   return (
     <div className="MainContainer">
       <img
@@ -18,11 +18,15 @@ function MainSection() {
       />
       <h1 className="title__main">Learn</h1>
       <p className="description__main">Cryptocurrency</p>
-      <GetStartedButton onClickOpenModal={openModal}/>
-      <Modal isOpen={modalIsOpen} onRequestClose={() => setmodalIsOpen(false)}>
+      <GetStartedButton onClickOpenModal={openModal} />
+      <Modal
+        appElement={document.getElementById("root") || undefined}
+        isOpen={modalIsOpen}
+        onRequestClose={() => setmodalIsOpen(false)}
+      >
         <Signup />
       </Modal>
-      <Modal ></Modal>
+      {/* <Modal></Modal> */}
     </div>
   );
 }

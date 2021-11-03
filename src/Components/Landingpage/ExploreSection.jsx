@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useRef} from "react";
 import ExploreBoxes from "./ExploreBoxes";
 import ExploreBoxContents from "./ExploreBoxContent.js";
 
@@ -16,8 +16,15 @@ function addExploreBox(boxContent) {
 }
 
 function ExploreSection(props) {
+  const myref = useRef(null);
+
+  if(props.toScroll===true){
+    myref.current.scrollIntoView();
+    console.log("object")
+  }
+
   return (
-    <div className="exploreSection__div">
+    <div ref={myref} className="exploreSection__div">
       {ExploreBoxContents.map(addExploreBox)}
     </div>
   );

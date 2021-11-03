@@ -3,7 +3,6 @@ import { useState } from "react";
 import Modal from "react-modal";
 import Popup from "./Popup";
 
-//review this after learning useState
 function ResourceMiniBox(props) {
   const [modalIsOpen, setmodalIsOpen] = useState(false);
   return (
@@ -11,7 +10,7 @@ function ResourceMiniBox(props) {
       <button className="Rsrc__button" onClick={() => setmodalIsOpen(true)}>
         <h4 className="Rsrc__topic">{props.rsrctitle}</h4>
       </button>
-      <Modal isOpen={modalIsOpen} onRequestClose={() => setmodalIsOpen(false)}>
+      <Modal appElement={document.getElementById('root') || undefined} isOpen={modalIsOpen} onRequestClose={() => setmodalIsOpen(false)}>
         <Popup />
       </Modal>
     </div>

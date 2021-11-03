@@ -4,7 +4,6 @@ import Login from "./Login";
 
 function Signup(props) {
   const [modalIsOpen, setmodalIsOpen] = useState(false);
-  const [emailInput, setemailInput] = useState("");
 
   const emailInputHandler = (event)=>{
     console.log(event.target.value);
@@ -52,9 +51,9 @@ function Signup(props) {
         </div>
         <button className="register-button">Sign Up</button>
         <div className="form-login">
-          Already have an account? Login <a href="#" onClick={() => setmodalIsOpen(true)}>here</a>
+          Already have an account? Login <span style={{color:"#5B10A7"}} href="#" onClick={() => setmodalIsOpen(true)}>here</span>
         </div>
-        <Modal isOpen={modalIsOpen} onRequestClose={() => setmodalIsOpen(false)}>
+        <Modal appElement={document.getElementById('root') || undefined} isOpen={modalIsOpen} onRequestClose={() => setmodalIsOpen(false)}>
           <Login />
         </Modal>
       </form>

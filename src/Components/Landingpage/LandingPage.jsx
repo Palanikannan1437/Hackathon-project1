@@ -1,13 +1,21 @@
-import React from "react";
+import React,{useState} from "react";
 import NavigationBar from "../NavigationBar.jsx";
 import ExploreSection from "./ExploreSection.jsx";
 import MainSection from "./MainSection.jsx";
 import SubSection from "./SubSection.jsx";
 
 function LandingPage(props) {
+
+  const [exploreScroll, setExploreScroll] = useState(false);
+  
+  const exploreScrollFunc = ()=>{
+    setExploreScroll(true);
+  }
+
   return (
     <div style={{ height: "1300px" }}>
       <NavigationBar
+        scrollExplore = {exploreScrollFunc}
         itemcolor="#5B10A8"
         bgcolor="#FFFFFF"
         hovercolor="#FFFFFF"
@@ -36,7 +44,7 @@ function LandingPage(props) {
           pathtitle="MiningPage"
         ></SubSection>
       </div>
-      <ExploreSection className="explore__section--toScroll" />
+      <ExploreSection toScroll={exploreScroll} className="explore__section--toScroll" />
     </div>
   );
 }

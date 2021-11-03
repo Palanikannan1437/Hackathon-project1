@@ -21,6 +21,7 @@ function Item(props) {
       }}
       onMouseOver={changeHoverState}
       onMouseOut={changeHoverStateBack}
+      onClick={props.scrollExplore}
       className="title__menu"
       href="/"
     >

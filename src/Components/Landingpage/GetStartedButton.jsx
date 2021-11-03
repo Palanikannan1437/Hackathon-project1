@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import useMeasure from "react-use-measure";
 import { useSpring, animated } from "@react-spring/web";
 
-import styles from "./styles.modules.css";
-
 function GetStartedButton(props) {
   const [open, toggle] = useState(false);
   const [ref, { width }] = useMeasure();

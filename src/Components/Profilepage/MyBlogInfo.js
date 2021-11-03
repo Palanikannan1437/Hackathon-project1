@@ -15,7 +15,7 @@ const blogTitleInfo = [
     date: "22/04/2003",
   },
   {
-    id: 3,
+    id: 4,
     title: "Blog title 2",
     date: "22/04/2003",
   },

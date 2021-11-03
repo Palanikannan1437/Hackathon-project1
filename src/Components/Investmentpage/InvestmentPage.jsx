@@ -3,6 +3,7 @@ import NavigationBar from "../NavigationBar";
 import SubPageBox from "../SubPageBox";
 
 function InvestmentPage() {
+
   return (
     <div className="Investment__header">
       <NavigationBar

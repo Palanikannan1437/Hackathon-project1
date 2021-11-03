@@ -45,9 +45,9 @@ function SubPageBox(props) {
   return (
     <animated.div
       className={subclassname.concat(props.subid)}
-      onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calcXY(x, y) })}
-      onMouseLeave={() => set({ xys: [0, 0, 1] })}
-      style={{ transform: props1.xys.interpolate(perspective),backgroundColor: color }}
+      onMouseMove={({ clientX: x, clientY: y }) => set.start({ xys: calcXY(x, y) })}
+      onMouseLeave={() => set.start({ xys: [0, 0, 1] })}
+      style={{ transform: props1.xys.to(perspective),backgroundColor: color }}
     >
       <Link to={path} style={{ textDecoration: "none" }}>
         <button className="Subpage__button">

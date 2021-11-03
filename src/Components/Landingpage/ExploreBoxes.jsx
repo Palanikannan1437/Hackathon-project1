@@ -43,10 +43,10 @@ function ExploreBoxes(props) {
   }));
   return (
     <animated.div 
-    style={{ transform: props2.xys.interpolate(perspective), backgroundColor: props.color }} 
+    style={{ transform: props2.xys.to(perspective), backgroundColor: props.color }} 
     className="exploreBox__div"
-    onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calcXY(x, y) })}
-    onMouseLeave={() => set({ xys: [0, 0, 1] })}>
+    onMouseMove={({ clientX: x, clientY: y }) => set.start({ xys: calcXY(x, y) })}
+    onMouseLeave={() => set.start({ xys: [0, 0, 1] })}>
       {icon(props.logo)}
       <p className="exploreBoxTitle">{props.feature}</p>
       <p className="exploreBoxText">{props.desc}</p>
