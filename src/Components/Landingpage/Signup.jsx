@@ -4,6 +4,12 @@ import Login from "./Login";
 
 function Signup(props) {
   const [modalIsOpen, setmodalIsOpen] = useState(false);
+  const [emailInput, setemailInput] = useState("");
+
+  const emailInputHandler = (event)=>{
+    console.log(event.target.value);
+  }
+  
   return (
     <div className="form-content">
       <form className="form">
@@ -25,6 +31,7 @@ function Signup(props) {
             id="email"
             className="form-input"
             placeholder="Enter your e-mail"
+            onChange={emailInputHandler}
           />
         </div>
         <div className="form-input">

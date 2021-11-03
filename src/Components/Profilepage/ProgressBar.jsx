@@ -10,7 +10,7 @@ const iconStyles = {
   },
 };
 
-const percentage = 40;
+const percentage = 20;
 
 function ProgressBar() {
   return (

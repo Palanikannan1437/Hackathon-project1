@@ -52,6 +52,7 @@ function AboutMe(props) {
         </Link>
         <Link to="/">
           <LocationOnIcon style={iconStyles.otherIcons} />
+          {/* twitter */}
         </Link>
         <Link to="/">
           <FacebookRoundedIcon style={iconStyles.otherIcons} />

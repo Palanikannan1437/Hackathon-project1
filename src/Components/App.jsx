@@ -9,6 +9,8 @@ import Resource from "./Resourcepage/Resource";
 import PostPage from "./PostPage/PostPage";
 import InfoPage from "./Infopage/InfoPage";
 import BlogPage from "./BlogPage/BlogPage";
+import Animation from "./Animation";
+import Animation2 from "./Animation2";
 
 function App(props) {
   return (
@@ -24,6 +26,8 @@ function App(props) {
           <Route path="/PostPage" component={PostPage} />
           <Route path="/InfoPage" component={InfoPage} />
           <Route path="/BlogPage" component={BlogPage} />
+          <Route path="/AnimationPage" component={Animation} />
+          <Route path="/Animation2Page" component={Animation2} />
         </Switch>
       </div>
     </Router>

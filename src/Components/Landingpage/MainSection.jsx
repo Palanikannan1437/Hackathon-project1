@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
+import GetStartedButton from "./GetStartedButton";
 import Signup from "./Signup";
 
 function MainSection() {
   const [modalIsOpen, setmodalIsOpen] = useState(false);
+
+  const openModal = ()=>{
+    setmodalIsOpen(true);
+  }
   return (
     <div className="MainContainer">
       <img
@@ -13,13 +18,7 @@ function MainSection() {
       />
       <h1 className="title__main">Learn</h1>
       <p className="description__main">Cryptocurrency</p>
-      <button
-        type="button"
-        className="button__main"
-        onClick={() => setmodalIsOpen(true)}
-      >
-        <p className="buttondesc__main">Get Started Now</p>
-      </button>
+      <GetStartedButton onClickOpenModal={openModal}/>
       <Modal isOpen={modalIsOpen} onRequestClose={() => setmodalIsOpen(false)}>
         <Signup />
       </Modal>
